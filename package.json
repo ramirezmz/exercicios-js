@@ -1,11 +1,12 @@
 {
-  "name": "avaliacao",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@simbiose/avaliacao-js-palindromo",
+  "license": "ISC",
   "main": "index.js",
+  "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest judge/judge.test.js --noStackTrace"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
 }

@@ -1,0 +1,25 @@
+{
+    "palindromes": [
+        "aibofobia",
+        "matam",
+        "A base do teto desaba.",
+        "A cara rajada da jararaca.",
+        "A Daniela ama a lei? Nada!",
+        "Adias a data da saida.",
+        "Luz azul.",
+        "Socorram-me, subi no ônibus em Marrocos.",
+        "Sairam o tio e oito Marias."
+    ],
+    
+    "notPalindromes": [
+        "lucas",
+        "olá mundo!",
+        "qual é o seu nome?",
+        "tres horas da tarde",
+        "planeta terra",
+        "Aí a Lima falou assim: \"Eaí, minha família!\"",
+        "Luz branca",
+        "Stranger Things nem é tão legal assim",
+        "volta ao mundo"
+    ]
+}
