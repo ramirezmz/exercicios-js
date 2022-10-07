@@ -1,5 +1,22 @@
-function palindromo(text) {
+function search(entries) {
     // code here
 }
 
-module.exports = palindromo
+function filter(entries) {
+    // code here
+}
+
+function balance(entries) {
+    // code here
+}
+
+function transform(entries) {
+    // code here
+}
+
+module.exports = {
+    search,
+    filter,
+    balance,
+    transform,
+}
