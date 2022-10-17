@@ -31,7 +31,7 @@
     ],
     "transform": [
         { "type": "MADEIRA" },
-        { "type": "PEDRA" },
+        { "type": "BARRO" },
         { "type": "AÇO" }
     ]
 }

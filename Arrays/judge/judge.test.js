@@ -1,4 +1,4 @@
-const functions = require("../index")
+const functions = require("../exercicios/index")
 const { balance: balanceFn, search: searchFn, filter: filterFn, transform: transformFn } = functions
 
 const tests = require("./tests.json")
@@ -22,7 +22,7 @@ describe("test array manipulation", () => {
 
     it("should return transform raw materials correctly", () => {
         const result = transformFn(transform)
-        const expectedResult = [{ type: "LAPIS" }, { type: "COLAR" }, { "type": "PANELA" }]
+        const expectedResult = [{ type: "LAPIS" }, { type: "TIJOLO" }, { "type": "PANELA" }]
         expect(result).toMatchObject(expectedResult)
     })
 })

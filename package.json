@@ -4,7 +4,7 @@
   "main": "index.js",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest judge/judge.test.js --noStackTrace"
+    "test": "jest --noStackTrace"
   },
   "dependencies": {
     "jest": "^29.1.2"
