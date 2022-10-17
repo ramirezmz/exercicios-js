@@ -11,7 +11,7 @@ yarn
 Depois resolva o problema e rode o seguinte comando para testar:
 
 ```bash
-npm run test
+npm run test {key do exericicio}
 # or
-yarn test
+yarn test {key do exericicio}
 ```
