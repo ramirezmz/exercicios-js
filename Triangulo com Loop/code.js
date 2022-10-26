@@ -1,11 +1,5 @@
 function loop() {
-    console.log("#")
-    console.log("##")
-    console.log("###")
-    console.log("####")
-    console.log("#####")
-    console.log("######")
-    console.log("#######")
+    // code
 }
 
 module.exports = loop

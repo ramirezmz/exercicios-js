@@ -1,4 +1,4 @@
-function minimo(a, b) {
+function minimo() {
     // code
 }
 
