@@ -1,15 +1,9 @@
 function countBs(word) {
-    let countB = 0
-    for(let i = 0; i < word.length; i++) {
-       if(word.charAt(i) != 'B') {
-        countB += 0
-            // console.log(word.charAt(i), 'false')
-       } else {
-        // console.log(word.charAt(i), 'true')
-        countB ++
-       }
-    }
-    return countB
+    return countChar(word, "B")
+}
+
+function countAs(word) {
+    return countChar(word, "A")
 }
 
 function countChar(word, char) {
@@ -17,12 +11,11 @@ function countChar(word, char) {
     let lengthWord = word.length
 
     for( let i = 0; i < lengthWord ; i++) {
-        if(word.charAt(i) != char) {
-            countBs += 0
-        } else {
+        if (word.charAt(i) = char) {
             countBs ++
         }
     }
+    
     return countBs
 }
 
